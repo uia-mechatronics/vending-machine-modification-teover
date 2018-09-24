@@ -21,17 +21,19 @@ int main()
 
     // Create a cola object. Constructor will be called with given parameters.
     Soda cola("Colabrus", 34, 4);
+    Soda pepsi("pepsi-Colabrus", 332, 34);
     // We have a variable named cola with Soda as its data type.
 
     // Call the VendingMachine addType function with cola variable as parameter.
     vendingMachine.addType(cola);
+    vendingMachine.addType(pepsi);
     // Print inventory using public printInventory member function (method).
     vendingMachine.printInventory();
 
 
 
     // Print a message just before exiting.
-    std::cout << "* * *" << std::endl;
+    std::cout << "* asdfasdfasdfasdfasdf* *" << std::endl;
     std::cout << "Vending machine shutting down ... BYE!" << std::endl << std::endl;
 
 
